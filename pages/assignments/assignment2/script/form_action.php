@@ -14,7 +14,7 @@
                 <h1><u>Information Extracted from Scholar ID: <?php echo $_GET["scholar-id"]; ?></u></h1>
                 <h2><u>Built by - Dhiman Seal (1814071)</u></h2>
             </div>
-            <div class="card-body" id="multiplication-table">
+            <div class="card-body">
                 <?php include "logic.php" ?>
                 <input class="back-button" type="button" value="Try Again" onclick="window.location.href='../index.html';">
             </div>

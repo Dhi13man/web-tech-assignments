@@ -10,7 +10,7 @@
     font: 1em sans-serif;
 }
 
-#multiplication-table {
+.card-body {
     align-items: center;
     color: rgb(204, 226, 235);
     display: flex;
