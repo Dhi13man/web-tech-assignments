@@ -1,0 +1,21 @@
+.input-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-form p {
+    font: 1em sans-serif;
+}
+
+#multiplication-table {
+    align-items: center;
+    color: rgb(204, 226, 235);
+    display: flex;
+    flex-direction: column;
+    font: x-large sans-serif;
+    justify-content: center;
+    width: 100%;
+}

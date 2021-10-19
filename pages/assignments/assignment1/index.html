@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CS-481 Assignment 1 (18th October, 2021)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../common_styles.css">
+</head>
+
+<body>
+    <div class="center-card">
+        <div class="card">
+            <div class="card-header">
+                <h1><u>Multiplication Table</u></h1>
+                <h2><u>Built by - Dhiman Seal (1814071)</u></h2>
+            </div>
+            <div class="card-body">
+                <form method="GET" action="./script/form_action.php" class="input-form">
+                    <p>Number whose multiplication table is to be shown:&emsp;<input class="input-field" type="number" name="number" placeholder="Number" required></p>
+                    <p>Number of rows of the shown multiplication table:&emsp;<input class="input-field" type="number" name="rows" placeholder="Rows (Default: 10)" value=10></p>
+                    <p style="display: flex; flex-direction: row;">
+                        <input class="base-button" type="button" value="Go Back" onclick="window.location.href='../../landing/landing_page.html'">&emsp;
+                        <input class="base-button" type="submit" value="Submit">
+                    </p>
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
