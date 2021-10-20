@@ -35,7 +35,7 @@
 
 .expression-field {
     background-color: rgb(37, 35, 35);
-    border: 0.1px solid rgb(180, 120, 218, 0.3);
+    border: 0.1px solid rgb(180, 120, 218, 0.6);
     border-radius: 5px;
     color: rgb(250, 245, 245);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -68,4 +68,9 @@
     justify-content: center;
     flex-direction: row;
     width: 100%;
+}
+
+@font-face {
+    font-family: 'Lucida Sans Unicode';
+    src: url('./Lucida Sans Unicode.ttf');
 }

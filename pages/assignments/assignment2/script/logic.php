@@ -40,7 +40,7 @@ if (strlen($input) != 7) {
                 $branch = "Invalid Branch";
                 break;
         }
-        echo "<h3>The Student belongs to B. Tech. in " . $branch . $h3EndTag;
+        echo "<h3>The Student is enrolled for B. Tech. in " . $branch . $h3EndTag;
     } else if ($second_two_digits[0] == "2") {
         switch ($second_two_digits[1]) {
             case "1":
@@ -65,9 +65,9 @@ if (strlen($input) != 7) {
                 $branch = "Invalid Branch";
                 break;
         }
-        echo "<h3>The Student belongs to M. Tech. in " . $branch . $h3EndTag;
+        echo "<h3>The Student is enrolled for M. Tech. in " . $branch . $h3EndTag;
     } else if ($second_two_digits[0] == "3") {
-        echo "<h3>The Student belongs to PhD";
+        echo "<h3>The Student is enrolled for PhD";
     } else {
         echo "<h3>Unable to deduce what course the student is enrolled in.</h3>";
     }
