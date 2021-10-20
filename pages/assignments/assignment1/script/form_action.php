@@ -16,8 +16,12 @@
             </div>
             <div class="card-body" id="multiplication-table">
                 <?php
-                for ($i = 1; $i <= ($_GET["rows"] ?: 10); $i++) {
-                    echo $_GET["number"] . "&emsp;*&emsp;" . $i . "&emsp;=&emsp;" . $_GET["number"] * $i . "<br>";
+                if ($_GET["rows"] <= 0) {
+                    echo "<h3>Please enter a positive number of rows.</h3>";
+                } else {
+                    for ($i = 1; $i <= ($_GET["rows"] ?: 10); $i++) {
+                        echo $_GET["number"] . "&emsp;*&emsp;" . $i . "&emsp;=&emsp;" . $_GET["number"] * $i . "<br>";
+                    }
                 }
                 ?>
                 <input class="back-button" type="button" value="Try Again" onclick="window.location.href='../index.html';">
