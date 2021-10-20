@@ -50,7 +50,7 @@
     border: 1px solid blueviolet;
     box-shadow: 2px 5px 4px 2px rgb(26, 25, 25);
     color: rgb(255, 255, 255);
-    font-size: large;
+    font: large 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 5px;
     padding: 1em;
     text-align: center;
