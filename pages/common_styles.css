@@ -8,7 +8,7 @@ body {
     background: rgb(48, 47, 47);
     border: 0.1px solid rgba(121, 33, 204, 0.3);
     border-radius: 20px 30px;
-    box-shadow: 35px 15px 15px 10px rgba(0, 0, 0, 0.7), ;
+    box-shadow: 35px 15px 15px 10px rgb(39, 1, 51);
     display: flex;
     flex-direction: column;
     margin: 3%;
