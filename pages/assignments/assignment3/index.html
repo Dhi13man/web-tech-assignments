@@ -20,8 +20,8 @@
                 <div class="button-row">
                     <input class="calc-button" type="button" value="(" onclick="addToExpr('(')">
                     <input class="calc-button" type="button" value=")" onclick="addToExpr(')')">
-                    <input class="calc-button" type="button" value="." onclick="addToExpr('.')">
-                    <input class="calc-button" type="button" value="<-" onclick="addToExpr('<-')">
+                    <input class="calc-button" type="button" value="«" onclick="addToExpr('«')">
+                    <input class="calc-button" type="button" value="C" onclick="addToExpr('C')">
                     <input class="calc-button" type="button" value="/" onclick="addToExpr('/')">
                 </div>
                 <div class="button-row">
@@ -41,11 +41,12 @@
                 <div class="button-row">
                     <input class="calc-button" type="button" value="0" onclick="addToExpr('0')">
                     <input class="calc-button" type="button" value="1" onclick="addToExpr('1')">
-                    <input class="calc-button" type="button" value="C" onclick="addToExpr('C')">
-                    <input class="calc-button" type="button" value="=" onclick="evaluateExpr()">
+                    <input class="calc-button" type="button" value="." onclick="addToExpr('.')">
+                    <input class="calc-button" type="button" value="%" onclick="addToExpr('%')">
                     <input class="calc-button" type="button" value="+" onclick="addToExpr('+')">
                 </div>
                 <div class="button-row">
+                    <input class="calc-button" id="eval" type="button" value="=" onclick="evaluateExpr()">
                 </div>
             </div>
             <input class="base-button" type="button" value="Go Back" onclick="window.location.href='../../landing/landing_page.html'">&emsp;

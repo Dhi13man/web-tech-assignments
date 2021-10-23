@@ -7,7 +7,7 @@ const expression_field = document.getElementsByClassName("expression-field");
 function addToExpr(expr) {
     let value = expression_field.namedItem("expression").value;
     switch (expr) {
-        case "<-":
+        case "«":
             value = value.slice(0, -1);
             break;
 
@@ -48,8 +48,6 @@ function evaluateExpr() {
  */
 function getClearConfirmation(prelude) {
     var retVal = confirm(prelude + " Do you want to clear it?");
-    if (retVal) {
-        addToExpr("C");
-    }
+    if (retVal) addToExpr("C");
     return retVal;
 }
