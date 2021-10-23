@@ -1,5 +1,8 @@
 
 # HTID:18511558: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
+<IfModule mod_php5.c>
+    php_flag display_errors 1
+    php_flag display_startup_errors 1
+</IfModule>
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18511558:
 RedirectMatch 301 ^/$ /pages/landing/landing_page.html
