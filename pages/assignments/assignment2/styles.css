@@ -17,5 +17,6 @@
     flex-direction: column;
     font: x-large sans-serif;
     justify-content: center;
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
 }

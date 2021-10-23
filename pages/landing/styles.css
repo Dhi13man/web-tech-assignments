@@ -2,18 +2,19 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     font-size: x-large;
+    width: fit-content;
+    height: 100%;
 }
 
-.assignment-list #header {
+.assignment-list #assignment-list-super {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    margin: 1%;
+    margin: 5% 0%;
 }
 
-.assignment-list #header ol {
+.assignment-list #assignment-list-sub {
     font-weight: normal;
 }
 
