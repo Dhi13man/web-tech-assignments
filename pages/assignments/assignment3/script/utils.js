@@ -37,8 +37,7 @@ function evaluateExpr() {
     }
 
     // Find the result of the mathematical expression
-    const result = eval(expr);
-    expression_field.namedItem("expression").value = result;
+    expression_field.namedItem("expression").value = (expr === "") ? 0 : eval(expr);
 }
 
 /**
